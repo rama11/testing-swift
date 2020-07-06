@@ -15,6 +15,15 @@
 		ADB012FE24B2DBA600E7C494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB012FC24B2DBA600E7C494 /* LaunchScreen.storyboard */; };
 		ADB0130924B2DBA700E7C494 /* testing2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0130824B2DBA700E7C494 /* testing2Tests.swift */; };
 		ADB0131424B2DBA700E7C494 /* testing2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0131324B2DBA700E7C494 /* testing2UITests.swift */; };
+		ADB0132224B2E01D00E7C494 /* HomeIdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0132124B2E01D00E7C494 /* HomeIdentityViewController.swift */; };
+		ADB0132424B2E50300E7C494 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0132324B2E50300E7C494 /* HomeViewController.swift */; };
+		ADB0132624B3060100E7C494 /* HomeJobCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0132524B3060100E7C494 /* HomeJobCategoryViewController.swift */; };
+		ADB0132824B307AF00E7C494 /* HomeJobListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0132724B307AF00E7C494 /* HomeJobListViewController.swift */; };
+		ADB0132D24B30B2500E7C494 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0132C24B30B2500E7C494 /* Home.storyboard */; };
+		ADB0132F24B30BDC00E7C494 /* Job.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0132E24B30BDC00E7C494 /* Job.storyboard */; };
+		ADB0133124B30BE700E7C494 /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0133024B30BE700E7C494 /* Payment.storyboard */; };
+		ADB0133324B30BF900E7C494 /* Support.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0133224B30BF900E7C494 /* Support.storyboard */; };
+		ADB0133524B30C0500E7C494 /* Personal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB0133424B30C0500E7C494 /* Personal.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		ADB0130F24B2DBA700E7C494 /* testing2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testing2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB0131324B2DBA700E7C494 /* testing2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing2UITests.swift; sourceTree = "<group>"; };
 		ADB0131524B2DBA700E7C494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB0132124B2E01D00E7C494 /* HomeIdentityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeIdentityViewController.swift; sourceTree = "<group>"; };
+		ADB0132324B2E50300E7C494 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		ADB0132524B3060100E7C494 /* HomeJobCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeJobCategoryViewController.swift; sourceTree = "<group>"; };
+		ADB0132724B307AF00E7C494 /* HomeJobListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeJobListViewController.swift; sourceTree = "<group>"; };
+		ADB0132C24B30B2500E7C494 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		ADB0132E24B30BDC00E7C494 /* Job.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Job.storyboard; sourceTree = "<group>"; };
+		ADB0133024B30BE700E7C494 /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		ADB0133224B30BF900E7C494 /* Support.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Support.storyboard; sourceTree = "<group>"; };
+		ADB0133424B30C0500E7C494 /* Personal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Personal.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +117,12 @@
 		ADB012F024B2DBA400E7C494 /* testing2 */ = {
 			isa = PBXGroup;
 			children = (
+				ADB012F724B2DBA400E7C494 /* Main.storyboard */,
+				ADB0132B24B30AFB00E7C494 /* Storyboard */,
 				ADB012F124B2DBA400E7C494 /* AppDelegate.swift */,
 				ADB012F324B2DBA400E7C494 /* SceneDelegate.swift */,
 				ADB012F524B2DBA400E7C494 /* ViewController.swift */,
-				ADB012F724B2DBA400E7C494 /* Main.storyboard */,
+				ADB0133724B31F4400E7C494 /* Home */,
 				ADB012FA24B2DBA600E7C494 /* Assets.xcassets */,
 				ADB012FC24B2DBA600E7C494 /* LaunchScreen.storyboard */,
 				ADB012FF24B2DBA600E7C494 /* Info.plist */,
@@ -126,6 +146,29 @@
 				ADB0131524B2DBA700E7C494 /* Info.plist */,
 			);
 			path = testing2UITests;
+			sourceTree = "<group>";
+		};
+		ADB0132B24B30AFB00E7C494 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0132C24B30B2500E7C494 /* Home.storyboard */,
+				ADB0132E24B30BDC00E7C494 /* Job.storyboard */,
+				ADB0133024B30BE700E7C494 /* Payment.storyboard */,
+				ADB0133224B30BF900E7C494 /* Support.storyboard */,
+				ADB0133424B30C0500E7C494 /* Personal.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		ADB0133724B31F4400E7C494 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0132324B2E50300E7C494 /* HomeViewController.swift */,
+				ADB0132124B2E01D00E7C494 /* HomeIdentityViewController.swift */,
+				ADB0132524B3060100E7C494 /* HomeJobCategoryViewController.swift */,
+				ADB0132724B307AF00E7C494 /* HomeJobListViewController.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +277,11 @@
 			files = (
 				ADB012FE24B2DBA600E7C494 /* LaunchScreen.storyboard in Resources */,
 				ADB012FB24B2DBA600E7C494 /* Assets.xcassets in Resources */,
+				ADB0132F24B30BDC00E7C494 /* Job.storyboard in Resources */,
+				ADB0133124B30BE700E7C494 /* Payment.storyboard in Resources */,
+				ADB0132D24B30B2500E7C494 /* Home.storyboard in Resources */,
+				ADB0133324B30BF900E7C494 /* Support.storyboard in Resources */,
+				ADB0133524B30C0500E7C494 /* Personal.storyboard in Resources */,
 				ADB012F924B2DBA400E7C494 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB0132424B2E50300E7C494 /* HomeViewController.swift in Sources */,
+				ADB0132824B307AF00E7C494 /* HomeJobListViewController.swift in Sources */,
 				ADB012F624B2DBA400E7C494 /* ViewController.swift in Sources */,
 				ADB012F224B2DBA400E7C494 /* AppDelegate.swift in Sources */,
+				ADB0132624B3060100E7C494 /* HomeJobCategoryViewController.swift in Sources */,
+				ADB0132224B2E01D00E7C494 /* HomeIdentityViewController.swift in Sources */,
 				ADB012F424B2DBA400E7C494 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R1n-gV-83w">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Job-->
+        <scene sceneID="Z2x-O7-CkX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hPC-qO-4e0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="R1n-gV-83w" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4U6-KP-UXw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="jlg-d5-q6r"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Job" image="doc.fill" catalog="system" id="gOF-eG-f11"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="993" y="442"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="doc.fill" catalog="system" width="115" height="128"/>
+    </resources>
+</document>
